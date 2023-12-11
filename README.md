@@ -22,4 +22,4 @@
 /// Q1: .c files turn to pre-processed .i files, then Compiler Proper turns them into .s files by low assembly level, the assembler converts them into object files .o, finally the linker links the library with the obj files to get the exe files.<br>
 /// Q2: X = X ^ (1 << 7) // Toggles the bit at position 7 of the integer X<br>
 /// Q3: Interrupts are asynchronous signals with ordered priority in the MCU that perform specific functions.<br>
-  ###the code is in the main
+  ##the code is in the main
