@@ -21,3 +21,16 @@ int main() {
 
     return 0;
 }
+--------------------------------------------------------
+
+
+int main() {
+    int n;
+    scanf("%i", &n);
+    int count = 0;
+    while (n) {
+        count += n & 1;
+        n >>= 1;
+    }
+    printf("%i",count);
+}
